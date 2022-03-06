@@ -1,21 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import command from "./../src/assets/docker.jpeg";
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <p>build react app with #Docker</p>
+        <img style={{ width: "100%" }} src={command} alt="docker-command" />
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://dev.to/bahachammakhi/dockerizing-a-react-app-with-nginx-using-multi-stage-builds-1nfm"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Docker Test
         </a>
       </header>
     </div>
